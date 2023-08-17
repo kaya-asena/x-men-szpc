@@ -38,8 +38,8 @@ const personagens = document.querySelectorAll('.personagem');
 personagens.forEach((personagem) => {
     personagem.addEventListener('mouseenter', () => {
 
-        if(window.innerWidth < 450){
-            window.scrollTo({top: 0, behavior: 'smooth' });
+        if(window.innerWidth < 450) {
+            window.scrollTo({top: 0, behavior: 'smooth'});
         }
 
         // Passo 3 - Verificar se já existe um perosnagem selecionado, se sim, devemos remover a seleção dele.
